@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+	<title>乐窝网</title>
+	<style>
+		.a{
+			float: right;
+		}
+		.b{
+		
+			margin-left: 5px;
+		}
+		.c{
+			line-height: 50px;
+		}
+		.d{
+			
+			background-image: url('images/intro-bg_ny5.png');
+			
+			background-size: 100% 100%;
+			
+		}
+		.e{
+			margin-bottom: 0px;
+		}
+		.f{
+			
+			
+		}
+		.f .g{
+			border: none;
+			border-radius: 0%;
+			padding-left: 10px;
+			padding-top: 30px;
+			padding-bottom: 5px;
+			margin-bottom: 0px;
+			background-color: transparent; 
+		}
+		.f .g h1{
+			color: red;
+			margin-left: 5px;
+		}
+		.f .g p{
+			color: #bbb;
+			font-size: 25px;
+			margin-left: 10px;
+		}
+		.h{
+			width: 438px;
+			background-color: #d9534f;
+			color: #eee;
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+		.i{
+			width: 438px;
+			margin-left: 20px;
+		}
+		.j{
+			margin-left: 15px;
+			margin-top: 20px;
+			display: inline-block;
+		}
+		.k{
+			display: inline-block;
+			margin-left: 10px;
+		
+			position: relative;
+			top: 15px;
+		}
+		.one{
+			
+			padding-top: 20px;
+			padding-bottom: 10px;
+			padding-right: 80px;
+			padding-bottom: 20px;
+		}
+		.two{
+			border: 1px solid #eee;
+		}
+		.l{
+			color: red;
+		}
+		.three{
+			border-bottom: none;
+			margin-left: 30px;
+		}
+		.three h1{
+			color: #777;
+			font-size: 30px;
+		}
+		.four{
+			color: red;
+			margin-left: 20px;
+			font-size: 17px;
+		}
+		.five{
+			border-radius: 0px;
+			display: inline-block;
+			width: 30%;
+			margin-top: 30px;
+			margin-left: 30px;
+		}
+		.six{
+			margin-left: -5px;
+		}
+		.p3 .x{
+			border: none;
+			text-align: center;
+		}
+		.p3 .y{
+			display: inline-block;
+			width: 68px;
+			height: 68px;
+			font-size: 68px;
+		}
+		.p4{
+			border: 1px solid #eee;
+		}
+		.z{
+			
+			padding-top: 20px;
+			padding-bottom: 10px;
+			padding-right: 80px;
+			padding-bottom: 20px;
+		}
+ 		.aa{
+ 			border-bottom: none;
+ 			padding-bottom: 4px;
+ 			margin-left: 20px;
+
+ 		}
+ 		.bb{
+ 			margin-left: 20px;
+ 			font-size: 18px;
+ 			color: #777;
+ 			margin-bottom: 10px;
+ 		}
+ 		.cc{
+ 			width: 200px;
+ 			margin-left: 20px;
+ 			height: 50px;
+ 		}
+ 		.dd{
+ 			background-image: url('images/banner3.png');
+
+ 		}
+ 		.ee{
+ 			background-color: transparent;
+ 		}
+ 		.ee h1{
+ 			text-align: center;
+ 		}
+ 		.ee p{
+ 			color: #777;
+ 		}
+ 		
+
+ 		.p6 .gg{
+ 			border: none;
+ 		}
+ 		.gg .ff{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+            background-image: url('images/shuo_yang.jpg');
+           	margin-right: auto;
+           	margin-left: auto;
+ 		}
+ 		.hh{
+ 			margin-left: 15px;
+ 			font-size: 14px;
+ 			margin-top: 10px;
+ 			margin-bottom: 10px;
+ 		}
+ 		.ii{
+ 			margin-left: 15px;
+ 		}
+ 		.jj{
+ 			display: inline-block;
+
+ 		}
+ 		.kk{
+ 			color: #333;
+ 			background-color: transparent;
+ 			border: none;
+ 			padding: 0px;
+ 		}
+ 		.ll{
+ 			color: #333;
+ 			background-color: transparent;
+ 			border: none;
+ 			padding: 0px;
+ 		}
+ 		.gg .mm{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+           
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/fan_wang.jpg')
+ 		}
+ 		.gg .nn{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+            
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/terry.jpg')
+ 		}
+ 		.gg .oo{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+           
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/huiwen.jpg')
+ 		}
+ 		.gg .pp{
+
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+           
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/maggie.png')
+ 		}
+ 		.gg .qq{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+           
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/wenxiang.png')
+ 		}
+ 		.rr{
+ 			display: block;
+ 			height: 70px;
+ 			width: 70px;
+ 			border-radius: 50%;
+           
+           	margin-right: auto;
+           	margin-left: auto;
+ 			background-image: url('images/yipeng.jpg')
+ 		}
+ 		.ss{
+ 			background-color: #eee;
+ 			height: 60px;
+ 		}
+ 		.tt{
+ 			display: inline-block;
+ 			text-align: center;
+ 		}
+ 		.uu{
+ 			border: none;
+ 			color: red;
+ 			background-color: transparent;
+ 			padding: 0px;
+ 			margin-top: 20px;
+ 			margin-left: 20px;
+ 		}
+ 		.vv{
+ 			border: none;
+ 			color: red;
+ 			padding: 0px;
+ 			margin-top: 20px;
+ 			margin-left: 20px;
+ 			background-color: transparent;
+ 		}
+ 		.ww{
+ 			margin-left:30px;
+ 			position: relative;
+ 			top: 10px;
+
+ 		}
+ 		
+	</style>
+</head>
+<body>
+	<div class="container" >
+	<nav class="navbar navbar-default e">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="images/lewoer-logo.svg" alt=""></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav a">
+	        <li class="active"><a href="#">一站式服务<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">拼房求租</a></li>
+	      
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">纽约客指南<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	        <button type="button" class="btn btn-danger b">发布出租</button>
+			<button type="button" class="btn btn-default b">注册</button>
+			<button type="button" class="btn btn-default b">登录</button>
+			<span class="c">ENG</span>
+	      </ul>
+	     
+	      
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid --></nav>
+	 	<div class="d">
+		<div class="row">
+			<div class="col-md-5 f">
+				<div class="jumbotron g">
+  					<h1>乐窝USA</h1>
+ 					<p>留美找房第一站</p>
+					</div>
+             	<select class="form-control i">
+ 					 <option>Newport</option>
+ 					 <option>2</option>
+  					 <option>3</option>
+  					 <option>4</option>
+  			 <option>5</option>
+					</select>
+				<button type="submit" class="btn btn-default h" >搜索</button><br>
+					
+				
+					<img src="images/getqrcode-sm.jpg" alt="" class="img-responsive j">
+				
+					<span class="k">
+						订阅乐窝公众号：<span class="l">「租在纽约」</span>
+						<br>查看精选房信息
+					</span>
+				</div>
+			<div class="col-md-8"></div></div>	
+		</div>
+
+ 	<div class="two">
+ 		<div class="row ">
+ 		<div class="col-md-6">
+ 			<div class="page-header three">
+ 			 <h1>精品闪租房源 <small>（Avilable）</small></h1>
+			</div>
+			<span class="four">【暑假短租】曼哈顿村studydown小区 阳光次卧 宁包入住~男女不限！</span><br>
+			<input class="form-control five" type="text" placeholder="$1300每月" readonly>
+			<input class="form-control five six" type="text" placeholder="单间" readonly>
+ 		</div>
+ 		<div class="col-md-6 one">
+ 			<img src="images/590946ec94270136165655.jpg" alt="" class="img-responsive">
+ 			
+ 		</div>
+ 		</div>
+ 	</div>
+
+	<div class="p3">
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="thumbnail x">
+      			<img src="images/icon_connect.svg" alt="...">
+      			<div class="caption">
+        		<h3>靠谱房源</h3>
+        		<p>第一次来美国，害怕上当受骗？乐窝帮你找同校师兄师姐房源。</p>
+        		</div>
+    			</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="thumbnail x">
+      			<i class="glyphicon glyphicon-phone y"></i>
+      			<div class="caption">
+        		<h3>手机发布</h3>
+        		<p>需要出租自己的房子？乐窝让你通过手机轻松定位、拍照、直接发布租房信息</p>
+        		</div>
+    			</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="thumbnail x">
+      			<i class="glyphicon glyphicon-user  y"></i>
+      			<div class="caption">
+        		<h3>拼房合租</h3>
+        		<p>学校在曼哈顿，租金高太离谱？想要人一起合租，乐窝网帮你找到最匹配的舍友。</p>
+        		</div>
+    			</div>
+			</div>
+		</div>
+	</div>
+
+ 	<div class="p4">
+ 		<div class="row">
+ 			<div class="col-md-6">
+ 				<div class="page-header aa">
+ 			 	<h1>靠谱房源</h1>
+				</div>
+				<p class="bb">我们会重上百个租房资源中，为你找符合要求的房子，你只需要告诉我们你的条件，我们来处理其他的。如果你有找舍友的要求，我们也会在我们广大的用户群里为你找到最适合的伙伴。</p><br>
+				<button type="button" class="btn btn-danger cc">搜索房子&nbsp;<i class="glyphicon glyphicon-circle-arrow-right"></i></button>
+			</div>
+ 			<div class="col-md-6 z">
+ 				<img src="images/home-desktop02.jpg" alt="" class="img-responsive">
+ 			</div>
+ 		</div>
+ 		</div>
+ 		<div class="p4">
+ 		<div class="row">
+ 			<div class="col-md-6">
+ 				<div class="page-header aa">
+ 			 	<h1>拼房合租</h1>
+				</div>
+				<p class="bb">需要找人合租？只要发布求组信息附上自己感兴趣的房子，然后点击合租！乐窝帮你找到最匹配的室友。</p><br>
+				<button type="button" class="btn btn-danger cc">发布求租信息&nbsp;<i class="glyphicon glyphicon-circle-arrow-right"></i></button>
+			</div>
+ 			<div class="col-md-6 z">
+ 				<img src="images/home-hezu2.jpg" alt="" class="img-responsive">
+ 			</div>
+ 		</div>
+ 		</div>
+ 		<div class="p4">
+ 		<div class="row">
+ 			<div class="col-md-6">
+ 				<div class="page-header aa">
+ 			 	<h1>手机+微信轻松发布</h1>
+				</div>
+				<p class="bb">有房子要出租？乐窝让你直接通过手机发布信息。只需要用手机拍下房间照片，做几个选择就可发布，再也不用导照片到电脑里了。乐窝还可以通过手机自动定位你的地址，不再需要逐字输入冗长的地址啦。</p><br>
+				<button type="button" class="btn btn-danger cc">发布出租信息&nbsp;<i class="glyphicon glyphicon-circle-arrow-right"></i></button>
+			</div>
+ 			<div class="col-md-6 z">
+ 				<img src="images/home-iphone01.jpg" alt="" class="img-responsive">
+ 			</div>
+ 		</div>
+ 		</div>
+	
+	<div class="p5 dd">
+		<div class="jumbotron ee ">
+  			<h1>乐窝团队：</h1>
+  			<p>乐窝由毕业于美国的留学生创立。亲身经历了飞跃重阳之路，体会过中美社会环境的巨大差异，我们深知其中的酸甜苦辣。中国古话说安居乐业，在美国找一个省钱，便利，快捷和安全的新家是事业学业顺利发展的好基础。我们创建乐窝，目的就是帮助将要来没工作学习的同学解决好这第一件大事。</p> 
+  			
+		</div>
+	</div>
+    
+    <div class="p6">
+    	<div class="row">
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="ff"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="mm"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="nn"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    	</div>
+    </div>
+
+	 <div class="p6">
+    	<div class="row">
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="oo"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="pp"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="qq"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    	</div>
+    </div>
+
+    <div class="p6">
+    	   <div class="row">
+    		<div class="col-md-4 ">
+				<div class="thumbnail gg">
+					
+				   <span class="rr"></span>
+				      <div class="caption">
+				        <p class="hh">杨硕，乐窝联合创始人，万能产品经理+设计师+前端攻城师，UlUc工业毕业。爱创作爱博客</p>
+				        <p class="ii">
+				        	<span>联系他：</span>
+				        	<i class="glyphicon glyphicon-envelope"></i>
+				        	<span class="jj">
+				        		<a href="#" class="btn btn-primary kk" role="button">「邮件」</a> 
+				        		<a href="#" class="btn btn-default ll" role="button">「微信」</a>
+				        	</span>
+				        	
+				        </p>
+				      </div>
+				    </div>    			
+    		</div>
+    </div></div>
+
+	<div class="p7 ss">
+		<p class="tt">
+			<a href="#" class="btn btn-danger uu" role="button">首页</a> 
+			<a href="#" class="btn btn-danger vv" role="button">博客</a>
+		</p>
+		<span class="ww">电邮：support@lewoer.com Copyright&copyright;乐窝2014 All Rights Reserved</span>
+	</div>
+
+
+</div>
+
+
+
+
+	
+	
+</body>
+</html>
